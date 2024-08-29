@@ -11,6 +11,8 @@
 		B41860F52C7EE13000B89C61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41860F42C7EE13000B89C61 /* ContentView.swift */; };
 		B41860F72C7EE13100B89C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41860F62C7EE13100B89C61 /* Assets.xcassets */; };
 		B41860FA2C7EE13100B89C61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41860F92C7EE13100B89C61 /* Preview Assets.xcassets */; };
+		B41861012C7EE5DD00B89C61 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41861002C7EE5DD00B89C61 /* DateExtension.swift */; };
+		B41861032C7EF2C800B89C61 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41861022C7EF2C800B89C61 /* StopWatchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B41860F42C7EE13000B89C61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B41860F62C7EE13100B89C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41860F92C7EE13100B89C61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B41861002C7EE5DD00B89C61 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		B41861022C7EF2C800B89C61 /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				B41860F42C7EE13000B89C61 /* ContentView.swift */,
 				B41860F62C7EE13100B89C61 /* Assets.xcassets */,
 				B41860F82C7EE13100B89C61 /* Preview Content */,
+				B41861002C7EE5DD00B89C61 /* DateExtension.swift */,
+				B41861022C7EF2C800B89C61 /* StopWatchViewModel.swift */,
 			);
 			path = StopWatchSample;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41861032C7EF2C800B89C61 /* StopWatchViewModel.swift in Sources */,
 				B41860F52C7EE13000B89C61 /* ContentView.swift in Sources */,
+				B41861012C7EE5DD00B89C61 /* DateExtension.swift in Sources */,
 				B41860F32C7EE13000B89C61 /* StopWatchSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
